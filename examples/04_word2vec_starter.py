@@ -1,4 +1,4 @@
-""" The mo frills implementation of word2vec skip-gram model using NCE loss. 
+""" The mo frills implementation of word2vec skip-gram model using NCE loss.
 Author: Chip Huyen
 Prepared for the class CS 20SI: "TensorFlow for Deep Learning Research"
 cs20si.stanford.edu
@@ -15,7 +15,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.contrib.tensorboard.plugins import projector
 
-from process_data import process_data
+from .process_data import process_data
 
 VOCAB_SIZE = 50000
 BATCH_SIZE = 128
@@ -63,9 +63,9 @@ def word2vec(batch_gen):
 
         # TO DO
 
-        
+
     # Step 5: define optimizer
-    
+
     # TO DO
 
 
